@@ -39,3 +39,21 @@ export class AppModule {}
 DATABASE_URL=''
 ```
 ---
+
+
+#### Prisma v8 install
+```bash
+npm install -D prisma@latest
+```
+```bash
+npm install @prisma/orm-postgres
+```
+> interactive setup
+```bash
+npx prisma@latest orm init --target postgres
+```
+> Or, non-interactive setup  [recommended]
+```bash
+npx prisma@latest orm init --yes --target postgres --authoring psl
+```
+---
