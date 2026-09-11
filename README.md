@@ -35,7 +35,7 @@ export class AppModule {}
 
 #### `example.env`
 ```bash
-DATABASE_URL=''
+DATABASE_URL=""
 ```
 ---
 
@@ -56,3 +56,13 @@ npx prisma@latest orm init --target postgres
 npx prisma@latest orm init --yes --target postgres --authoring psl
 ```
 ---
+
+
+>#### example.env theke DATABASE_URL copy kore .env te paste koro.
+#### `.env`
+```bash
+DATABASE_URL=""
+```
+---
+
+
