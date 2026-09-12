@@ -78,3 +78,13 @@ model Book {
 ---
 
 
+>#### Prisma 8 Database Initialization
+> is new database
+```bash
+npx prisma db init
+```
+> then contract database e apply koro
+```bash
+npx prisma db update
+```
+---
