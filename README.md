@@ -102,6 +102,8 @@ npx prisma db update
 ```bash
 npx prisma@latest db verify
 ```
+<img width="1294" height="322" alt="image" src="https://github.com/user-attachments/assets/080b61fb-a379-4ca3-b64a-64972e6290de" />
+
 ---
 
 
