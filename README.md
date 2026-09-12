@@ -94,6 +94,9 @@ npx prisma@latest db verify
 npx prisma@latest contract emit
 ```
 ```bash
+npx prisma@latest db update --dry-run
+```
+```bash
 npx prisma db update
 ```
 ```bash
