@@ -66,3 +66,15 @@ DATABASE_URL=""
 ---
 
 
+#### `contract.prisma`
+```bash
+model Book {
+  id String @id @default(uuid())
+  title String
+  author String
+  createdAt DateTime @default(now())
+}
+```
+---
+
+
