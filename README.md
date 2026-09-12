@@ -81,6 +81,9 @@ model Book {
 >#### Prisma 8 Database Initialization
 > Initialize Database
 ```bash
+npx prisma@latest contract emit
+```
+```bash
 npx prisma db init
 ```
 > then contract database e apply koro
