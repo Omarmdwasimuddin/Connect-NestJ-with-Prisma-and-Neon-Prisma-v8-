@@ -89,9 +89,15 @@ npx prisma db init
 ```bash
 npx prisma@latest db verify
 ```
->- then contract database e apply koro
+>- Existing Database
+```bash
+npx prisma@latest contract emit
+```
 ```bash
 npx prisma db update
+```
+```bash
+npx prisma@latest db verify
 ```
 ---
 
