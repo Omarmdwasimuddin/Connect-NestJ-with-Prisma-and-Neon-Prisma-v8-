@@ -88,3 +88,10 @@ npx prisma db init
 npx prisma db update
 ```
 ---
+
+
+#### Prisma 8 PostgreSQL Driver
+```bash
+npm install @prisma/orm-postgres
+```
+---
