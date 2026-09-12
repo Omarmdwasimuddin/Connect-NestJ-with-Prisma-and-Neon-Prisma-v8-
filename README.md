@@ -79,7 +79,7 @@ model Book {
 
 
 >#### Prisma 8 Database Initialization
-> is new database
+> Initialize Database
 ```bash
 npx prisma db init
 ```
